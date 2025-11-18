@@ -1,0 +1,183 @@
+/* --------------------------
+   1. Configuração global
+---------------------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    background: #f8f9fa;
+    color: #2c3e50;
+}
+
+/* --------------------------
+   2. Hero / Cabeçalho
+---------------------------*/
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+}
+
+.titulo {
+    font-family: "Playfair Display", serif;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.subtitulo {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+/* --------------------------
+   3. Estrutura principal
+---------------------------*/
+
+.conteudo {
+    padding: 40px 5%;
+}
+
+.secao {
+    margin-bottom: 60px;
+}
+
+.secao-titulo {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* --------------------------
+   4. Cards e Grid
+---------------------------*/
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Sistemas de cores */
+.red { background: red; }
+.hex { background: #1abc9c; }
+.rgb { background: rgb(46, 204, 113); }
+.rgba { background: rgba(231, 76, 60, 0.5); }
+.hsl { background: hsl(280, 70%, 60%); }
+
+/* --------------------------
+   5. Tipografia
+---------------------------*/
+
+.texto {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.inter-light { font-weight: 300; }
+.inter-bold { font-weight: 700; }
+
+.playfair {
+    font-family: "Playfair Display", serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.decorado {
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/* --------------------------
+   6. Backgrounds
+---------------------------*/
+
+.bg-card {
+    height: 130px;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-size: cover;
+}
+
+.bg-img {
+    background-image: url("https://picsum.photos/300/200");
+}
+
+.bg-cover {
+    background-image: url("https://picsum.photos/500/500");
+    background-size: cover;
+}
+
+.bg-center {
+    background-image: url("https://picsum.photos/400/300");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-repeat {
+    background-image: url("https://picsum.photos/100/100");
+    background-repeat: repeat;
+}
+
+/* --------------------------
+   7. Gradientes
+---------------------------*/
+
+.gradiente {
+    height: 130px;
+    border-radius: 12px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linear-2 {
+    background: linear-gradient(to right, #ff0000, #0000ff);
+}
+
+.linear-3 {
+    background: linear-gradient(to right, #ff7b00, #ff006e, #8338ec);
+}
+
+.linear-ang {
+    background: linear-gradient(45deg, #00f5d4, #0077b6);
+}
+
+.radial {
+    background: radial-gradient(circle, #ffbe0b, #fb5607, #ff006e);
+}
+
+/* --------------------------
+   8. Rodapé
+---------------------------*/
+
+.rodape {
+    text-align: center;
+    padding: 20px;
+    background: #2d2d2d;
+    color: white;
+}
